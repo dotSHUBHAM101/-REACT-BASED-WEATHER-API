@@ -1,0 +1,86 @@
+.weather{
+  place-self: center; 
+  padding: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /* Make it adjustable/responsive */
+  width: 90%;             /* Occupies 90% of screen on mobile */
+  max-width: 400px;       /* Won't grow larger than 400px on desktop */
+
+}
+
+.search_bar{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+.weather_data{
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.precipitation{
+  margin-top: 50px;
+}
+
+.search-container {
+  position: relative;
+  width: 250px;          /* adjust width */
+}
+
+.weather {
+  display: flex;
+  justify-content: center;   /* center whole bar */
+  margin-top: 30px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  background: #fff;          
+  border: 1px solid #ccc;
+  border-radius: 25px;       
+  padding: 5px 10px;
+  width: 300px;             
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+}
+
+.input_box {
+  flex: 1;                   /* takes complete space inside*/
+  border: none;
+  outline: none;
+  font-size: 14px;
+  text-align: center;       
+  background: transparent;
+}
+
+.searchBtn {
+  background: #007bff;       
+  border: none;
+  border-radius: 50%;        
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.searchBtn:hover {
+  background: #0056b3;       
+}
+
+.searchBtn img {
+  width: 18px;
+  height: 18px;
+  filter: invert(1);         
+}
